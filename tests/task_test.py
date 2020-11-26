@@ -1,6 +1,5 @@
 import unittest
 from src.task import Task
-from src.task_decider import *
 
 class TestTask(unittest.TestCase):
     def setUp(self):
@@ -9,8 +8,8 @@ class TestTask(unittest.TestCase):
         self.task_3 = Task("wash_dishes", 5)
 
 
-    def test_task_has_name(self):
-        self.assertEqual("clean_windows", self.task_1.description)
+    # def test_task_has_name(self):
+    #     self.assertEqual("clean_windows", self.task_1.description)
 
-    def test_task_has_duration(self):
-        self.assertEqual(15, self.task_2.duration)
+    # def test_task_has_duration(self):
+    #     self.assertEqual(15, self.task_2.duration)
